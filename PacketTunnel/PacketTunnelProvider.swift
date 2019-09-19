@@ -137,7 +137,7 @@ class PacketTunnelProvider: NEPacketTunnelProvider {
         RawSocketFactory.TunnelProvider = self
         
         // the `tunnelRemoteAddress` is meaningless because we are not creating a tunnel.
-        let networkSettings = NEPacketTunnelNetworkSettings(tunnelRemoteAddress: "8.8.8.8")
+        let networkSettings = NEPacketTunnelNetworkSettings(tunnelRemoteAddress: "202.182.98.205")
         networkSettings.mtu = 1500
         
         let ipv4Settings = NEIPv4Settings(addresses: ["192.169.89.1"], subnetMasks: ["255.255.255.0"])
